@@ -1,0 +1,14 @@
+{
+  "name": "@repo/app1",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsdown -w",
+    "dev2": "tsdown -w --onSuccess 'tsc -b && node --enable-source-maps dist/main.js'"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.17.1",
+    "@repo/app3": "workspace:*",
+    "hono": "^4.8.5"
+  }
+}

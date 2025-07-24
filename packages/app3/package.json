@@ -1,0 +1,9 @@
+{
+  "name": "@repo/app3",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+  },
+  "main": "./src/main.ts",
+  "dependencies": {}
+}
