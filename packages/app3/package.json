@@ -2,8 +2,9 @@
   "name": "@repo/app3",
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-  },
+  "scripts": {},
   "main": "./src/main.ts",
-  "dependencies": {}
+  "dependencies": {
+    "zod": "^4.1.13"
+  }
 }

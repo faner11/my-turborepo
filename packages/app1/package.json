@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "tsdown -w",
-    "dev2": "tsdown -w --onSuccess 'tsc -b && node --enable-source-maps dist/main.js'"
+    "build": "tsdown"
   },
   "dependencies": {
     "@hono/node-server": "^1.17.1",
