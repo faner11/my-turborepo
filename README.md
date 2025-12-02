@@ -1,3 +1,2 @@
 ## Steps to reproduce 
-1. pnpm run dev
-2. Modify the contents of packages/app1/src/main.ts casually
+1. pnpm run build    // Observe the build artifacts of app1
